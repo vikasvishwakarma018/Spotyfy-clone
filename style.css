@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --a:0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.left {
+    width: 25vw;
+    padding: 10 px;
+
+}
+
+.right {
+    width: 75vw;
+    padding: 10px;
+}
+
+.home2 , .search{
+    display: inline;
+    visibility: visible;
+    height: 18px;
+}
+.home {
+    padding: 10px;
+}
+
+.home ul li {
+    display: flex;
+    width: 14px;
+    list-style: none;
+    /* diplay felx karne se kya hota hai uske samne aajata hai agchhe line se  */
+    /* flex karna se ininle me element me chal jata hai this is the property for the inlin element  */
+    gap: 15px;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.heading {
+    width: 100%;
+    padding-top: 14px;
+    padding: 23px;
+    display: flex;
+    gap: 15px;
+    font-weight: bold;
+    align-items: center;
+    font-size: 13px;
+}
+
+.libary {
+    min-height: 85vh;
+    position: relative;
+}
+
+.heading img {
+    width: 30px;
+}
+
+.boxesforlibaries {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+}
+
+.libary .firstbox,
+.secondbox {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.firstbox .secondbox,
+button {
+    background-color: white;
+    /* color: black;
+     */
+    color: red;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.firstbox .secondbox,
+button:hover {
+    background-color: #cccccc;
+    color: rgb(18, 18, 18);
+    font-weight: bold;
+
+}
+
+.firstbox .secondbox,
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.firstbox .secondbox,
+p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    font-size: 10px;
+    gap: 13px;
+    list-style: none;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer a {
+    color: grey;
+    list-style: none;
+}
+
+a:hover {
+    color: white;
+    font-size: 10px;
+}
+
+.arrow-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+
+}
+
+.getterthanarrow {
+    margin-right: 600px;
+}
+
+.sign-up {
+    background: none;
+    color: #cccccc;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 10px;
+    /* list-style: none; */
+
+}
+
+.sign-up:hover {
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.login {
+    background-color: white;
+    border-radius: 21px;
+    color: black;
+    padding: 10px;
+    width: 70px;
+    cursor: pointer;
+    font-size: 16px;
+    border: 1px solid rgba(252, 243, 243, 0.845);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.login:hover {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.buttonsForRecomainded button {
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    border-radius: 20px;
+    color: black;
+    width: 90px;
+    height: 35px;
+    cursor: pointer;
+    font-size: 16px;
+    border: 1px solid rgba(252, 242, 242, 0.845);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+
+}
+
+.buttonsForRecomainded button:hover {
+    font-weight: bold;
+    background-color: white;
+
+
+}
+
+.spotyfy-playlist {
+    padding: 16px;
+
+}
+
+.cardContainer {
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 10px;
+
+}
+.card{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    /* background-color: #252525; */
+    position: absolute;
+}
+.card img {
+    color: white;
+    display: flex;
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+  
+}
+
+.card1:hover , .card2:hover , .card3:hover{
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    --a:1;
+}
+
+.card h2 {
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 14px;
+    color: #cccccc;
+    margin-bottom: 0;
+}
+
+card>*{
+    padding-top: 10px;
+}
+.play{
+    width: 38px;
+    height: 38px;
+    background-color: #1fdf64;
+    border-radius: 50%;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 110px;
+    right: 20px;
+    opacity: var(--a);
+    transform: scale(1.5);
+    transition: all 1s ease-out;
+}
+.card1:hover.play ,.card2:hover.play , .card3:hover.play {
+    opacity: 1; 
+     
+}
+
+.playbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 25px;
+    left: 320px;
+    background-color:rgb(241,246,241);
+    border-radius: 14px;
+    width: 90%;
+    height: 50px;
+    padding: 5px;
+    width: 70vw;
+    min-height: 30px;
+    box-shadow: 0 0 5px rgba(15, 15, 15, 0.3);
+    filter: invert(1);  
+  
+}
+.songbuttons{
+    display: flex;
+    width: 44px;
+    height: 37px;
+    margin-bottom: 10px;
+    justify-content: center;
+    gap: 20px;
+    border-radius:50%;
+    border: 1.5px solid black;
+     box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+}
+.seekbar{
+    height: 2px;
+    width: 99%;
+    bottom: 0;
+    border-radius: 10px; ;
+    position: absolute;
+    border: 2px solid black;
+}
+.circle{
+    width: 13px;
+    height: 13px;
+    border-radius: 30px;
+    background-color: black;
+    position: absolute;
+    bottom: -6px;
+    left: -6px;  
+}

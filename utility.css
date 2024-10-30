@@ -1,0 +1,43 @@
+.border{
+    border: 2px solid red;
+    margin: -2px;
+}
+.justify-center{
+    justify-content: center;
+}
+.flex{
+    display: flex;
+}
+itms-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter:invert(1);
+}
+.text-visible{
+    color: white;
+    /* this is shoiiud for the requremenbt isshu for the good thinks  */
+}
+.bg-grey{
+    background-color: #121212;
+}
+.rounded{
+    border: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+.flex{
+    display: flex;
+}
+.right-bgcolor{
+    background-color: #121212;
+
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotyfy clone </title>
+    <!-- css and utiity classs  for the link src-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+
+<body>
+    <div class="container flex bg-black m-1 p-1">
+        <div class="left  ">
+            <div class="home bg-grey rounded m-1 p-1 ">
+                <div class="invert"><img src="logo.svg " alt="logo spotify"></div>
+                <ul>
+                    <li><img class="invert home2" src="home.svg" alt="home">Home</li>
+                    <li><img class="invert search" src="search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="libary bg-grey rounded m-1 p-1 ">
+                <div class="heading">
+                    <img class="invert" src="playlist.svg" alt="playlist">
+                    <h2>Your Libary</h2>
+                </div>
+                <!-- 2 boxes is use to the libary property  -->
+                <div class="boxesforlibaries">
+                    <div class="firstbox">
+                        <h2>Create your first playlist </h2>
+                        <p>It's easy, we'll help you </p>
+                        <button>Create playlist</button>
+                    </div>
+                    <div class="secondbox">
+                        <h2>Let's find some podcasts to follow</h2>
+                        <p>We'll keep you updated on new episode</p>
+                        <button>Browse podcasts</button>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right m-1 right-bgcolor ">
+            <div class="header">
+                <div class="nav">
+                    <div class="arrow-container">
+                        <div class="lessthanarrow invert">
+                            <img src="lessthanarrow.svg" alt="left arrow">
+                        </div>
+                        <div class="getterthanarrow invert">
+                            <img class="" src="getterarrow.svg" alt="right arrow">
+                        </div>
+                        <div class="buttons">
+                            <button class="sign-up">sign up </button>
+                            <button class="login">login</button>
+                        </div>
+                    </div>
+                </div>
+                <span class="buttonsForRecomainded">
+                    <button>All </button>
+                    <button>Music </button>
+                    <button>Podcast </button>
+                </span>
+                <br> <br>
+                <div class="spotify-playlist">
+                    <h1>Recommended for you</h1> <br>
+                    <div class="cardContainer ">
+                        <div class="card  flex">
+                            <div class="play">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                    </svg>
+                               </div>
+                            <div class="card1"><img
+                                    src="https://i.scdn.co/image/ab67706f00000002f4caf116bd60e783f94363c3" alt="">
+                                <h2>Mollywood Gold</h2>
+                                <p>The finest set of Malayalam music...</p>
+                                <div class="play">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                        </svg>
+                                   </div>
+                                
+                            </div>
+                            <div class="card2 "><img
+                                    src="https://i.scdn.co/image/ab67706f00000002e9a64fabf2f69b1d81f18692" alt="">
+                                <h2>Rap 91 claim</h2>
+                                <p>indain;s Rap sence cover-humankind</p>
+                                <div class="play">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                        </svg>
+                                   </div>
+                                </div>
+                            <div class="card3"><img
+                                    src="https://i.scdn.co/image/ab67706f00000002639007e7b5d0e835871563d8" alt="">
+                                <h2>Kollywood cream </h2>
+                                <p>Finist collection of tamill music form the...</p>
+                                <div class="play">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                        </svg>
+                                   </div>
+                                
+                            </div>
+                            <div class="playbar ">
+                                <div class="seekbar">
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="songinfo">
+
+                                </div>
+                                <div class="songbuttons">
+                                    <img width="35" id="previous" src="prevsong.svg" alt="">
+                                    <img width="35" id="play" src="play.svg" alt="">
+                                    <img width="35" id="next" src="nextsong.svg" alt="">
+                                </div>
+                                    <div class="songtime">
+
+                                    </div>
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
