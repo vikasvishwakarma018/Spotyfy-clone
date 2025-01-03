@@ -11,8 +11,6 @@ full page of the spotyfy clone
 Main componenets for the spotyfy clone
 ```
 ![Screenshot 2025-01-03 143308](https://github.com/user-attachments/assets/7657f5a5-3165-4012-9109-a35fe305f7e8)
+```
 ![Screenshot 2025-01-03 143338](https://github.com/user-attachments/assets/ace3fe67-fce1-4c49-a17d-2c23ad4d36a9)
 ```
-Navbar
-```
-![Screenshot 2025-01-03 143545](https://github.com/user-attachments/assets/bcaa1c2e-bf6e-494d-9e28-db289efa985a)
